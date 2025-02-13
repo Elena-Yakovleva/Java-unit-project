@@ -7,6 +7,13 @@ import org.testng.Assert;
 //2. Вместо Assertion прописываем Assert
 //3. actual результат прописывается до expected.
 
+/* Настройки build.gradle для TestNG
+   dependencies {
+       testImplementation ('org.testng:testng:7.7.0')
+}
+   test {
+       useTestNG()
+}*/
 
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
