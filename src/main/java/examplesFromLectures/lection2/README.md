@@ -141,9 +141,64 @@ Continuous Integration (CI), или Непрерывная интеграция,
 * Качественный код: Постоянное тестирование и интеграция способствуют повышению качества кода, так как ошибки выявляются и устраняются на ранних этапах.
 
 Наиболее популярные CI:
-* «Jenkins», 
-* «GitLab CI», 
-* «AppVeyor», 
-* «Travis», 
-* «CircleCI», 
-* «GitHub Actions».
+* «Jenkins» -
+* «GitLab CI» - 
+* «AppVeyor» подсказки по подключению в задании [JavaAppVeyor](https://github.com/Elena-Yakovleva/JavaAppVeyor)
+* «Travis» -
+* «CircleCI» - 
+* «GitHub Actions» 
+
+maven.yml
+
+<details>
+
+``````
+name: Java CI with Maven
+
+on: [push, pull_request]
+
+jobs:
+build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 17
+      uses: actions/setup-java@v2
+      with:
+        java-version: '17'
+        distribution: 'adopt'
+    - name: Build with Maven
+      run: mvn -B -e verify
+``````
+</details>
+
+gradle.yml
+
+<details>
+
+````
+name: Java CI with Gradle
+on: [push, pull_request]
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+- name: Set up JDK 17
+uses: actions/setup-java@v2
+with:
+java-version: '17'
+distribution: 'adopt'
+- name: Grant execute permission for gradlew
+run: chmod +x gradlew
+- name: Build with Gradle
+run: ./gradlew test
+# Команда `chmod +x gradlew` делает файл gradlew исполняемым в linux.
+# Команда `./gradlew test` собирает ваш проект и запускает тесты.
+````
+
+</details>
+
+

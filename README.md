@@ -1,6 +1,9 @@
 ### Блок 1. Основы автоматизации, платформа JUnit
 * [Лекция 1. Основы автоматизации](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection1)
-* [Лекция 2. Тестирование API, Continuous Integration]()
+* [Лекция 2. Тестирование API, Continuous Integration]() 
+
+  * [JavaAppVeyor](https://github.com/Elena-Yakovleva/JavaAppVeyor)
+  * [PostmanEcho]()
 
 ### Блок 2. Тестирование веб-интерфейсов
 * [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide]()
