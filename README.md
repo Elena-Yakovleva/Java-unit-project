@@ -1,9 +1,9 @@
 ### Блок 1. Основы автоматизации, платформа JUnit
 * [Лекция 1. Основы автоматизации](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection1)
 * [Лекция 2. Тестирование API, Continuous Integration](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection2) 
-
-  * [JavaAppVeyor](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection2/appveyor/MobileBankApiTestV1.java)
-  * [PostmanEcho](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection2/postman/ApiPostmanEchoTest.java)
+  * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection2)
+    * [JavaAppVeyor](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection2/appveyor/MobileBankApiTestV1.java)
+    * [PostmanEcho](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection2/postman/ApiPostmanEchoTest.java)
 
 ### Блок 2. Тестирование веб-интерфейсов
 * [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide]()

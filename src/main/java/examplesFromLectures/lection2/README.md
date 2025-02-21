@@ -143,7 +143,7 @@ Continuous Integration (CI), или Непрерывная интеграция,
 Наиболее популярные CI:
 * «Jenkins» -
 * «GitLab CI» - 
-* «AppVeyor» подсказки по подключению в задании [JavaAppVeyor](https://github.com/Elena-Yakovleva/JavaAppVeyor)
+* «AppVeyor» подсказки по подключению в задании [JavaAppVeyor](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection2/README.md)
 * «Travis» -
 * «CircleCI» - 
 * «GitHub Actions» 
