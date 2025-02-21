@@ -2,8 +2,8 @@
 * [Лекция 1. Основы автоматизации](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection1)
 * [Лекция 2. Тестирование API, Continuous Integration](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection2) 
 
-  * [JavaAppVeyor](https://github.com/Elena-Yakovleva/JavaAppVeyor)
-  * [PostmanEcho](https://github.com/Elena-Yakovleva/JavaPostmanEcho)
+  * [JavaAppVeyor]()
+  * [PostmanEcho]()
 
 ### Блок 2. Тестирование веб-интерфейсов
 * [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide]()
