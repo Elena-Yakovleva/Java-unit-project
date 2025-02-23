@@ -37,7 +37,7 @@ public class MobileBankCallBackFormApiTestV1 {
         options.addArguments("--dno-sandbox"); // отключает песочницу безопасности
         options.addArguments("--headless"); // запускает браузер Chrome в режиме без графического интерфейса
         driver = new ChromeDriver(options); //сохраняем скаченный драйвер с нужными параметрами в переменной driver
-        driver.get("http://localhost:9999");// запускаем страницу с помощью драйвера
+        driver.get("http://localhost:7777");// запускаем страницу с помощью драйвера
     }
 
     // удаление и очистка истории после проведения теста

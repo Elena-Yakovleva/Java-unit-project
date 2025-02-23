@@ -30,7 +30,7 @@ public class SeleniumTest {
         ChromeOptions options = new ChromeOptions(); //  набор параметров для драйвера
         options.addArguments("--disable-dev-shm-usage"); // отключает использование временного хранилища
         options.addArguments("--dno-sandbox"); // отключает песочницу безопасности
-        //options.addArguments("--headless"); // запускает браузер Chrome в режиме без графического интерфейса
+        options.addArguments("--headless"); // запускает браузер Chrome в режиме без графического интерфейса
         driver = new ChromeDriver(options); //сохраняем драйвер в переменной driver
 /*  driver.findElement(); - ищет элемент на странице
           .findElements(); - ищет  коллекцию элементов в виде листа
@@ -43,7 +43,7 @@ public class SeleniumTest {
           .navigate(); - управляет историей браузера
           .switchTo(); -позволяет переключаться между различными элементами и окнами браузера    */
 
-        driver.get("http://localhost:9999");
+        driver.get("http://localhost:7777");
 
     }
 
