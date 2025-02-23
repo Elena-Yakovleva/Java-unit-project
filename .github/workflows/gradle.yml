@@ -21,7 +21,7 @@ jobs:
       - name: Start SUT 1
         run: java -jar ./artifacts/app-mbank.jar &
       - name: Start SUT 2
-        run: java -jar ./artifacts/app-order.jar &
+        run: java -jar ./artifacts/app-order.jar -port=7777 &
       - name: Build with Gradle
         run: ./gradlew test
 
