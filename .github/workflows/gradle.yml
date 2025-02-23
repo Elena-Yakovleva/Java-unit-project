@@ -16,10 +16,12 @@ jobs:
           distribution: 'adopt'
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      - name: Start SUT
-      # Запускаем SUT
-      # & означает, что в фоновом режиме не блокируем терминал для запуска тестов(должен быть обязательно)
+        # Запускаем SUT
+        # & означает, что в фоновом режиме не блокируем терминал для запуска тестов(должен быть обязательно)
+      - name: Start SUT 1
         run: java -jar ./artifacts/app-mbank.jar &
+      - name: Start SUT 2
+        run: java -jar ./artifacts/app-order.jar &
       - name: Build with Gradle
         run: ./gradlew test
 
