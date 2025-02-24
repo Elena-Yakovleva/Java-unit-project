@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SelenideTest {
 
-    // тест проводится для app-callback.jar
+    // java -jar ./artifacts/app-callback.jar -port=8081
 
     @Test
     void shouldSendForm() {
