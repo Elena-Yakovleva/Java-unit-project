@@ -55,4 +55,10 @@ public class ApiTest {
 
     }
 
+    // два варианта настройки schema для поля с несколькими вариантаминет
+    //"currency": {
+    //  "type": "string",
+    //     "enum": ["RUB", "USD"]
+    //     "pattern": "^RUB|USD"
+
 }

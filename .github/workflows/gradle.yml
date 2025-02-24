@@ -22,6 +22,15 @@ jobs:
         run: java -jar ./artifacts/app-mbank.jar &
       - name: Start SUT 2
         run: java -jar ./artifacts/app-order.jar -port=7777 &
+      - name: Start SUT 3
+        run: java -jar ./artifacts/app-card-delivery.jar -port=8080 &
+      - name: Start SUT 4
+        run: java -jar ./artifacts/app-callback.jar -port=8081 &
+      - name: Start SUT 5
+        run: java -jar ./artifacts/app-ibank-dom-modification.jar -port=8082 &
+      - name: Start SUT 6
+        run: java -jar ./artifacts/app-ibank-visibility.jar -port=8082 &
+
       - name: Build with Gradle
         run: ./gradlew test
 

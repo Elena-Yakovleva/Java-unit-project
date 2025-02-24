@@ -67,4 +67,23 @@ private WebDriver driver;
         driver.quit();
         driver = null;
     }
+    
 ```
+Ввод данных через .sendKey возможен только в поле input.
+
+
+**Selenide** 
+
+Selenide — это фреймворк для автоматизированного тестирования веб-приложений на основе Selenium WebDriver
+
+Код написанный на нем значительно меньше. Так же нет необходимости предварительно настраивать WebDriver
+```
+       Selenide.open("http://localhost:7777"); // открытие страницы
+        SelenideElement formElement = $("form"); // поиск элемента формы
+        formElement.$("[data-test-id='name'] input").setValue("Василий"); // ввод имени и фамилии
+        formElement.$("[data-test-id='phone'] input").setValue("+79993332211"); // ввод телефона
+        $("[data-test-id='agreement']").click();
+        $("[class='button__content']").click();
+             .should(Condition.visible, Condition.text("Ваша заявка успешно отправлена!"));
+```
+

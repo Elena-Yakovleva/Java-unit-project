@@ -8,7 +8,8 @@
     * [PostmanEcho](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection2/postman/ApiPostmanEchoTest.java)
 
 ### Блок 2. Тестирование веб-интерфейсов
-* [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide]()
+* [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection3)
+    * [Selenium](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection3/MobileBankCallBackFormApiTestV1.java) 
 * [Лекция 4. Selenide]()
 * [Лекция 5. Patterns]()
 * [Лекция 6. Behaviour Driven Development (BDD)]()
