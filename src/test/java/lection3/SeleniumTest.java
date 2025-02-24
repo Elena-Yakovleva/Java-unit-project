@@ -18,6 +18,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SeleniumTest {
 
+    //java -jar ./artifacts/app-order.jar -port=7777 &
+
     private WebDriver driver;
 
     @BeforeAll

@@ -15,6 +15,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//java -jar ./artifacts/app-order.jar -port=7777 &
+
 public class MobileBankCallBackFormApiTestV1 {
 
     //инициализация переменных

@@ -11,9 +11,11 @@ import static org.junit.Assert.assertEquals;
 
 public class SelenideTest {
 
+    // тест проводится для app-callback.jar
+
     @Test
     void shouldSendForm() {
-        Selenide.open("http://localhost:7777"); // открытие страницы
+        Selenide.open("http://localhost:8081"); // открытие страницы
         SelenideElement formElement = $("form"); // поиск элемента формы
         formElement.$("[data-test-id='name'] input").setValue("Василий"); // ввод имени и фамилии
         formElement.$("[data-test-id='phone'] input").setValue("+79993332211"); // ввод телефона

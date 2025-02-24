@@ -12,7 +12,9 @@ import static org.hamcrest.Matchers.hasSize;
 public class ApiTest {
     private static final Log log = LogFactory.getLog(ApiTest.class);
 
+    //- java -jar ./artifacts/app-mbank.jar &
     //http://localhost:9999/api/v1/demo/accounts
+
     @Test
     public void shouldReturnDemoAcc(){
         // автотесты имеют структуру
