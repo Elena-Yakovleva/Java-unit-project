@@ -1,3 +1,5 @@
+[![Java CI with Gradle](https://github.com/Elena-Yakovleva/Java-unit-project/actions/workflows/gradle.yml/badge.svg)](https://github.com/Elena-Yakovleva/Java-unit-project/actions/workflows/gradle.yml)
+
 ### Блок 1. Основы автоматизации, платформа JUnit
 * [Лекция 1. Основы автоматизации](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection1)
   * [JUnit4](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection1/CashbackHackServiceJUnit4Test.java)

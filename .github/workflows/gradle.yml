@@ -29,7 +29,7 @@ jobs:
       - name: Start SUT 5
         run: java -jar ./artifacts/app-ibank-dom-modification.jar -port=8082 &
       - name: Start SUT 6
-        run: java -jar ./artifacts/app-ibank-visibility.jar -port=8082 &
+        run: java -jar ./artifacts/app-ibank-visibility.jar -port=8083 &
 
       - name: Build with Gradle
         run: ./gradlew test
