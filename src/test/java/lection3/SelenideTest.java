@@ -1,4 +1,4 @@
-package lection4;
+package lection3;
 
 
 import com.codeborne.selenide.Condition;
@@ -11,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class SelenideTest {
 
+    // форма регистрации заявки на обратный звонок - пример к лекции 3
     // java -jar ./artifacts/app-callback.jar -port=8081
 
     @Test
@@ -24,6 +25,5 @@ public class SelenideTest {
         $("[data-test-id='callback-success']")
                .should(Condition.visible, Condition.text("Ваша заявка успешно отправлена!"));
     }
-
-
+    
 }
