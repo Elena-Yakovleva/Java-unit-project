@@ -12,7 +12,7 @@
 
 ### Блок 2. Тестирование веб-интерфейсов
 * [Лекция 3. Тестирование веб-интерфейсов, Selenium и Selenide](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection3)
-    * [Selenium](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection3/MobileBankCallBackFormApiTestV1.java) 
+    * [Selenium](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection3/SeleniumTest.java) 
     * [Selenide](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection3/SelenideTest.java)
     * [Условие задачи ДЗ](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection3)
       * [Тест](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection3/MobileBankCallBackFormApiTestV1.java)
