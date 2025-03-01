@@ -22,7 +22,10 @@
     * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection4/README.md)
        * [Задача 1](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection4/DeliveryCardServiceTestV1.java)
        * [Задача 2](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection4/DeliveryCardServiceTestV2.java)
-* [Лекция 5. Patterns]()
+* [Лекция 5. Patterns](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection5/README.md)
+    * [Условия задач]()
+       * [Задача 1: заказ доставки карты (изменение даты)]()
+       * [Задача 2: тестовый режим создания клиентов интернет-банка]() 
 * [Лекция 6. Behaviour Driven Development (BDD)]()
 
 ### Блок 3. Docker и SQL
