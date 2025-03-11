@@ -25,15 +25,20 @@
 * [Лекция 5. Patterns](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection5/README.md)
     * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection5/README.md)
        * [Задача 1: заказ доставки карты (изменение даты)]()
-          * [DataGenerator](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/test/java/lection5/delivery/data)
+          * [DataGenerator](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/delivery/data/DataGenerator.java)
           * [DeliveryTest](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/delivery/test/DeliveryTest.java)
        * [Задача 2: тестовый режим создания клиентов интернет-банка]() 
           * [DataGenerator](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/data/DataGenerator.java)
           * [AuthTest](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/test/AuthTest.java)
 * [Лекция 6. Behaviour Driven Development (BDD)]()
+   * [Условия задач]()
+      * [Задача 1: Page Object's]()
+      * [Задача 2: Задача №2: BDD]()
 
 ### Блок 3. Docker и SQL
-* [Лекция 7. Docker и Docker Compose]()
+* [Лекция 7. Docker и Docker Compose](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection7)
+    * [Условие задачи 1](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/README.md)[Задача 1: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/docker-compose.yml)
+    * [Условие задачи 2]()[Задача 2: ]()
 * [Лекция 8. SQL]()
 
 ### Блок 4. Отчётность и анализ

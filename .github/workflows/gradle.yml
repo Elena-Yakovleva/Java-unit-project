@@ -34,6 +34,8 @@ jobs:
         run: java -jar ./artifacts/app-replan-delivery.jar -port=8084 &
       - name: Start SUT 8
         run: java -jar ./artifacts/app-ibank.jar -port=8085 -P:profile=test &
+      - name: Start SUT 9
+        run: java -jar ./artifacts/app-ibank-build-for-testers.jar -port=8086 &
       - name: Build with Gradle
         run: ./gradlew test --info -Dselenide.headless=true
 
