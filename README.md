@@ -37,9 +37,14 @@
 
 ### Блок 3. Docker и SQL
 * [Лекция 7. Docker и Docker Compose](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection7)
-    * [Условие задачи 1](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/README.md)[Задача 1: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/docker-compose.yml)
-    * [Условие задачи 2]()[Задача 2: ]()
+    * [Условие задачи 1](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/README.md)
+       * [Задача 1: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/docker-compose.yml)
+    * [Условие задачи 2](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/README.md)
+       * [Задача 2: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/Dockerfile)
 * [Лекция 8. SQL]()
+    * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection8/README.md)
+       * [Задача 1]()
+       * [Задача 2]()
 
 ### Блок 4. Отчётность и анализ
 * [Лекция 9. Репортинг: Report Portal]()
