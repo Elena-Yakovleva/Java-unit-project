@@ -1,4 +1,3 @@
-![](https://i.postimg.cc/qv9RQjns/2025-03-11-115002.png)
 
 ### Задача №1: PostgreSQL
 
@@ -48,3 +47,7 @@
 * запустите заново `docker-compose up`, после того как всё исправите.
 
 Важно: команда `docker-compose rm` в каталоге с файлом `docker-compose.yml` удаляет сам контейнер.
+
+### Результат работы:
+![](https://i.postimg.cc/qv9RQjns/2025-03-11-115002.png)
+
