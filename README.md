@@ -33,7 +33,7 @@
 * [Лекция 6. Behaviour Driven Development (BDD)]()
    * [Условия задач]()
       * [Задача 1: Page Object's]()
-      * [Задача 2: Задача №2: BDD]()
+      * [Задача 2: Задача №2: BDD]() - не сделано
 
 ### Блок 3. Docker и SQL
 * [Лекция 7. Docker и Docker Compose](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection7)
@@ -41,11 +41,14 @@
        * [Задача 1: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task1/docker-compose.yml)
     * [Условие задачи 2](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/README.md)
        * [Задача 2: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/Dockerfile)
-* [Лекция 8. SQL]()
-    * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection8/README.md)
+* [Лекция 8. SQL](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection8/README.md)
+    * [Условия задач]()
        * [Задача 1]()
        * [Задача 2]()
 
 ### Блок 4. Отчётность и анализ
 * [Лекция 9. Репортинг: Report Portal]()
+   * [Условия задач]()
+      * [Allure]()
+      * [Report Portal]() - не сделано
 * [Лекция 10. Заключительная лекция]()
