@@ -30,7 +30,7 @@
        * [Задача 2: тестовый режим создания клиентов интернет-банка]() 
           * [DataGenerator](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/data/DataGenerator.java)
           * [AuthTest](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/test/AuthTest.java)
-* [Лекция 6. Behaviour Driven Development (BDD)]()
+* [Лекция 6. Behaviour Driven Development (BDD)](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection6/README.md)
    * [Условия задач]()
       * [Задача 1: Page Object's]()
       * [Задача 2: Задача №2: BDD]() - не сделано
@@ -47,8 +47,8 @@
        * [Задача 2]()
 
 ### Блок 4. Отчётность и анализ
-* [Лекция 9. Репортинг: Report Portal]()
-   * [Условия задач]()
-      * [Allure]()
+* [Лекция 9. Репортинг: Report Portal](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection9)
+   * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection9/README.md)
+      * [Allure](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection9/DeliveryCardTest.java)
       * [Report Portal]() - не сделано
 * [Лекция 10. Заключительная лекция]()
