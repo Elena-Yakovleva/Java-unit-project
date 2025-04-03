@@ -31,8 +31,8 @@
           * [DataGenerator](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/data/DataGenerator.java)
           * [AuthTest](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection5/testmode/test/AuthTest.java)
 * [Лекция 6. Behaviour Driven Development (BDD)](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection6/README.md)
-   * [Условия задач]()
-      * [Задача 1: Page Object's]()
+   * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection6)
+      * [Задача 1: Page Object's](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection6/test/MoneyTransferTest.java)
       * [Задача 2: Задача №2: BDD]() - не сделано
 
 ### Блок 3. Docker и SQL

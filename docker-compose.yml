@@ -1,10 +1,13 @@
+version: '3.9'
+
 services:
+
   mysql:
     image: mysql:8.0.34
     ports:
       - '3306:3306'
     volumes:
-      - ./schema:/docker-entrypoint-initdb.d
+      - ./src/test/resources/schema:/docker-entrypoint-initdb.d
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=app

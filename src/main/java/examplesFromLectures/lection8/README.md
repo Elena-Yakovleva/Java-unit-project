@@ -57,8 +57,7 @@ MySQL работает в виде сетевого сервиса, которы
 2. Выбрать тип базы данных (MySQL)
 ![img_2.png](image/img_2.png)
 при первом подключении возможно потребуется скачать дополнительный драйвер.
-3. Нажать на "тест соединения"
-если потребуется, в свойствах соединения в свойстве allowPublicKeyRetrieval указать значение TRUE
+3. Нажать на "тест соединения", если потребуется, в свойствах соединения в свойстве allowPublicKeyRetrieval указать значение TRUE
 4. Нажать "Готово"
 
 Процесс работы с БД
@@ -201,6 +200,100 @@ SELECT count(*), user_id FROM cards GROUP BY user_id;
 
 ![img.png](image/img_4.png)
 ![img.png](image/img_5.png)
+
+
+```
+
+public class DbInteractionDbUtils {
+    @BeforeEach
+    @SneakyThrows
+    void setUp() {
+        var faker = new Faker();
+        var runner = new QueryRunner();
+        var dataSQL = "INSERT INTO users(login, password) VALUES (?, ?);";
+
+        try (
+                var conn = DriverManager.getConnection(
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
+                );
+
+        ) {
+            // обычная вставка
+            runner.update(conn, dataSQL, faker.name().username(), "pass");
+            runner.update(conn, dataSQL, faker.name().username(), "pass");
+        }
+    }
+
+    @Test
+    @SneakyThrows
+    void stubTest() {
+        var countSQL = "SELECT COUNT(*) FROM users;";
+        var usersSQL = "SELECT * FROM users;";
+        var runner = new QueryRunner();
+
+        try (
+                var conn = DriverManager.getConnection(
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
+                );
+        ) {
+          var count = runner.query(conn, countSQL, new ScalarHandler<>());
+          System.out.println(count);
+          var first = runner.query(conn, usersSQL, new BeanHandler<>(User.class));
+          System.out.println(first);
+          var all = runner.query(conn, usersSQL, new BeanListHandler<>(User.class));
+          System.out.println(all);
+        }
+    }
+}
+
+
+public class SQLHelper {
+    private static final QueryRunner runner = new QueryRunner();
+
+    private SQLHelper() {
+    }
+
+    private static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/app", "app", "pass");
+    }
+
+    @SneakyThrows
+    public static void updateUsers(String login, String password) {
+        var dataSQL = "INSERT INTO users(login, password) VALUES (?, ?);";
+        try (var conn = getConnection()) {
+            runner.update(conn, dataSQL, login, password);
+        }
+    }
+
+    @SneakyThrows
+    public static long countUsers() {
+        var countSQL = "SELECT COUNT(*) FROM users;";
+        try (var conn = getConnection()) {
+            return runner.query(conn, countSQL, new ScalarHandler<>());
+        }
+    }
+
+    @SneakyThrows
+    public static User getFirstUser() {
+        var usersSQL = "SELECT * FROM users;";
+        try (var conn = getConnection()) {
+            return runner.query(conn, usersSQL, new BeanHandler<>(User.class));
+        }
+    }
+
+    @SneakyThrows
+    public static List<User> getUsers() {
+        var usersSQL = "SELECT * FROM users;";
+        try (var conn = getConnection()) {
+            return runner.query(conn, usersSQL, new BeanListHandler<>(User.class));
+        }
+    }
+
+}
+
+
+```
 
 
 

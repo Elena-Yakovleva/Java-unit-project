@@ -52,6 +52,10 @@ dependencies {
     testImplementation 'org.postgresql:postgresql:42.6.2'
 
     testImplementation 'io.qameta.allure:allure-selenide:2.20.1'
+    testRuntimeOnly 'org.slf4j:slf4j-simple:2.0.3'
+
+    testImplementation 'commons-dbutils:commons-dbutils:1.8.0'
+    implementation 'mysql:mysql-connector-java:8.0.31'
 
 }
 

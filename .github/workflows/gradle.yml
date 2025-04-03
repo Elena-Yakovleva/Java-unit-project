@@ -16,6 +16,12 @@ jobs:
           distribution: 'adopt'
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
+        # Запускаем встроенный docker
+      - name: Container start
+        uses: hoverkraft-tech/compose-action@v2.0.1
+      - name: Waiting for сontainer start
+        run: sleep 30
+
         # Запускаем SUT
         # & означает, что в фоновом режиме не блокируем терминал для запуска тестов(должен быть обязательно)
       - name: Start SUT 1
@@ -36,6 +42,9 @@ jobs:
         run: java -jar ./artifacts/app-ibank.jar -port=8085 -P:profile=test &
       - name: Start SUT 9
         run: java -jar ./artifacts/app-ibank-build-for-testers.jar -port=8086 &
+      - name: Start SUT 10
+        run: java -jar ./artifacts/app-deadline.jar -port=8087 &
+
       - name: Build with Gradle
         run: ./gradlew test --info -Dselenide.headless=true
 
