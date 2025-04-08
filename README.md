@@ -42,9 +42,9 @@
     * [Условие задачи 2](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/README.md)
        * [Задача 2: ](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection7/task2/Dockerfile)
 * [Лекция 8. SQL](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/examplesFromLectures/lection8/README.md)
-    * [Условия задач]()
-       * [Задача 1]()
-       * [Задача 2]()
+    * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/lection8)
+       * [Задача 1](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection8/test/AuthTest.java)
+       * [Задача 2]() - не сделано
 
 ### Блок 4. Отчётность и анализ
 * [Лекция 9. Репортинг: Report Portal](https://github.com/Elena-Yakovleva/Java-unit-project/tree/main/src/main/java/examplesFromLectures/lection9)
