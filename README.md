@@ -52,3 +52,4 @@
       * [Allure](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection9/DeliveryCardTest.java)
       * [Report Portal]() - не сделано
 * [Лекция 10. Заключительная лекция]()
+  *  [План-тестирования]()
