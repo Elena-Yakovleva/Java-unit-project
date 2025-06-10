@@ -53,3 +53,7 @@
       * [Report Portal]() - не сделано
 * [Лекция 10. Заключительная лекция](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection10/README.md)
   *  [План-тестирования](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection10/plan/README.md)
+
+### Сертификат об окончании курса
+
+![img.png](img.png)
