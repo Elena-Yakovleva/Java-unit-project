@@ -51,5 +51,5 @@
    * [Условия задач](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection9/README.md)
       * [Allure](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/test/java/lection9/DeliveryCardTest.java)
       * [Report Portal]() - не сделано
-* [Лекция 10. Заключительная лекция]()
-  *  [План-тестирования]()
+* [Лекция 10. Заключительная лекция](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection10/README.md)
+  *  [План-тестирования](https://github.com/Elena-Yakovleva/Java-unit-project/blob/main/src/main/java/lection10/plan/README.md)
